@@ -1,0 +1,86 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    border-radius: 20px;
+}
+ul{
+    overflow: auto;
+}
+li
+{
+    float: left;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0px 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.logo
+{
+    padding: 0px 0px;
+    padding-top: 0px;
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.hello
+{
+    color: white;
+}
+.upper
+{
+    display: flex;
+}
+.hello{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-size: 30px;
+}
+.photo
+{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    font-size: 30px;
+}
+.details
+{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
+.languages
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    position: absolute;
+    top: 1100px;
+    left: 300px;
+}
+.languages div{
+
+    float: left;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    margin: 30px 70px;
+}
+h4
+{
+    color: aqua;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 1030px;
+    left: 650px;
+}
